@@ -46,3 +46,45 @@ h1 {
   font-size: 1.5em;
   box-shadow: 5px 10px 15px -5px rgba(0, 0, 0, 0.15);
 }
+
+.keyart-layer {
+  width: 100%;
+}
+
+.keyart-moon {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+}
+
+.keyart-ground {
+  position: absolute;
+  bottom: 0;
+}
+
+.keyart-mesh {
+  position: absolute;
+  top: 0;
+  img {
+    opacity: 0.3;
+  }
+}
+
+.keyart-fog {
+  position: absolute;
+  bottom: 0;
+  img {
+    opacity: 0.3;
+  }
+}
+
+.keyart-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  h1 {
+    font-size: 38px;
+  }
+}
